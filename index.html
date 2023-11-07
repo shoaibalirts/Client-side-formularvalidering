@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="contact-form-div">
+      <h1>Opgave 1: Validering af navnefeltet</h1>
+      <form action="" id="form-contact-me">
+        <span>
+          <label for="name">Navn</label>
+          <input
+            type="text"
+            id="name"
+            class="name"
+            placeholder="indtæst dit navn"
+            name="name"
+          />
+        </span>
+        <span>
+          <label for="email">E-mail</label>
+          <input
+            type="text"
+            id="email"
+            class="email"
+            placeholder="abc@gmail.com"
+          />
+        </span>
+        <span>
+          <label for="message">Besked</label>
+          <input
+            type="text"
+            id="message"
+            class="message"
+            placeholder="din besked"
+          />
+        </span>
+
+        <input type="button" id="btnSubmit" value="Send me" name="send me" />
+        <div id="oplysninger"></div>
+      </form>
+    </div>
+    <script src="./App.js"></script>
+  </body>
+</html>
